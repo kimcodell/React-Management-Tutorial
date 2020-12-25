@@ -13,14 +13,14 @@ import {withStyles} from '@material-ui/core/styles';
 const styles = theme => ({
 	root : {
 		width : "100%",
-		margin : theme.spacing.unit * 3,
+		margin : theme.spacing(3),
 		OverflowX : "auto"
 	},
 	table : {
 		minWidth : 1080
 	},
 	progress : {
-		margin : theme.spacing.unit * 2
+		margin : theme.spacing(2)
 	},
 });
 
